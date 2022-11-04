@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:#192B39;
+    font-family: 'Rubik', sans-serif;
+    color: #B2C0C7; 
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    background-image: linear-gradient(to right, #F4FDD5 , #D5F659 , #D5F659 , #D5F659, #D5F659);
+    margin: 0;
+    height:100px;
+}
+  
+.logo img {
+    width:45%;
+    margin-top:10px;
+}
+  
+nav ul {
+    display: flex;
+}
+  
+ul li {
+    list-style: none;
+    margin-top: 0px;
+    transition: all .2s ease-in-out;
+}
+  
+li a {
+    text-decoration: none;
+    padding: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #192B39;;
+}
+  
+li a:hover {
+    color: #850956;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.hero {
+    height:780px;
+    text-align: center;
+    background-image:url(images/hero-shirt.jpg);
+    background-size:cover;
+}
+
+.hero-text {
+    width: 540px;
+    margin: 0 auto;
+    padding:160px;
+}
+
+.hero h1 {
+    font-size: 114px;
+    margin:0;
+    line-height:98%;
+}
+
+.hero h1 span {
+    font-size: 258px;
+    color:#C61E87; 
+    line-height:90%;
+}
+
+h1 {
+    font-family: 'Bahiana', cursive;
+    color: #D5F659; 
+    font-size: 85px;
+    margin-bottom:0px;
+}
+
+.card {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1.3rem;
+    margin-bottom: 2rem;
+}
+
+.card-text {
+    width:605px;
+  }
