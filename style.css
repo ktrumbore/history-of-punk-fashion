@@ -6,6 +6,33 @@ body {
     color: #B2C0C7; 
 }
 
+h1 {
+    font-family: 'Bahiana', cursive;
+    color: #D5F659; 
+    font-size: 85px;
+    margin-bottom:-10px;
+}
+
+h2 {
+    font-family: 'Bahiana', cursive;
+    color: #F4FDD5; 
+    font-size: 46px;
+    margin-bottom:0px;
+    margin-top:80px;
+}
+
+h3 {
+    font-size:17px;
+    font-weight:700px;
+    color: #F4E2EF;
+    text-align:center;
+}
+
+p {
+    font-size:16px;
+    line-height:1.4;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -13,11 +40,11 @@ body {
     padding: 0 80px;
     background-image: linear-gradient(to right, #F4FDD5 , #D5F659 , #D5F659 , #D5F659, #D5F659);
     margin: 0;
-    height:100px;
+    height:85px;
 }
   
 .logo img {
-    width:45%;
+    width:35%;
     margin-top:10px;
 }
   
@@ -33,9 +60,9 @@ ul li {
   
 li a {
     text-decoration: none;
-    padding: 25px;
+    padding: 27px;
     font-family: 'Rubik', sans-serif;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 500;
     color: #192B39;;
 }
@@ -73,11 +100,9 @@ li:hover {
     line-height:90%;
 }
 
-h1 {
-    font-family: 'Bahiana', cursive;
-    color: #D5F659; 
-    font-size: 85px;
-    margin-bottom:0px;
+.what-the-punk {
+    margin-top:30px;
+    position:relative;
 }
 
 .card {
@@ -87,6 +112,92 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.main-card-image img {
+    width:60%;
+    margin-left:180px;
+    margin-top:50px;
+}
+
 .card-text {
-    width:605px;
-  }
+    width:570px;
+}
+
+.background-texture {
+    position:absolute;
+    z-index:-5;
+}
+
+.quote {
+    position:absolute;
+    z-index:5;
+    background-color:#C61E87;
+    padding:8px 28px;
+    filter: drop-shadow(8px 8px 10px rgba(0,0,0,.4));
+}
+
+.what-the-punk .card .quote {
+    bottom:0px;
+    left:180px;
+    transform:rotate(-3.5deg);
+}
+
+.background-texture img {
+    width:50%;
+    margin-left:-200px;
+    margin-top:240px;
+}
+
+.birth-of-punk {
+    background-image:url(images/punk-trio.jpg);
+    height:800px;
+    margin-top:100px;
+    position:relative;
+}
+
+.pin img {
+    width:14%; 
+    position:absolute;
+    right:0px;
+    top:-85px;
+    filter: drop-shadow(8px 8px 12px rgba(0,0,0,.6));
+}
+
+.text-over-image {
+    width:600px;
+    background: rgba(25,43,57,.8);
+    padding:40px;
+    position:absolute;
+    bottom:50px;
+}
+
+.text-over-image p {
+    color:#F4FDD5;
+    margin-left:50px;
+}
+
+.text-over-image h1 {
+    margin-top:12px;
+    margin-left:50px;
+}
+
+.foundations-of-punk {
+    position:relative;
+}
+
+.left-card {
+    margin-left:90px;
+    margin-top:40px;
+}
+
+.right-image img {
+    width:100%;
+    margin-top:80px;
+}
+
+.foundations-of-punk .quote {
+    position:absolute;
+    right:230px;
+    bottom:0;
+    padding:6px 32px;
+    transform:rotate(-3.5deg);
+}
