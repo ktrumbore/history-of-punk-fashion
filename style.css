@@ -4,6 +4,7 @@ body {
     background:#192B39;
     font-family: 'Rubik', sans-serif;
     color: #B2C0C7; 
+    width:1440px;
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
     color: #D5F659; 
     font-size: 85px;
     margin-bottom:-10px;
+    margin-top:80px;
 }
 
 h2 {
@@ -52,13 +54,13 @@ nav ul {
     display: flex;
 }
   
-ul li {
+nav ul li {
     list-style: none;
     margin-top: 0px;
     transition: all .2s ease-in-out;
 }
   
-li a {
+nav li a {
     text-decoration: none;
     padding: 27px;
     font-family: 'Rubik', sans-serif;
@@ -67,11 +69,11 @@ li a {
     color: #192B39;;
 }
   
-li a:hover {
+nav li a:hover {
     color: #850956;
 }
 
-li:hover {
+nav li:hover {
     transform: scale(1.1);
 }
 
@@ -120,11 +122,18 @@ li:hover {
 
 .card-text {
     width:570px;
+    margin-bottom:30px;
 }
 
 .background-texture {
     position:absolute;
     z-index:-5;
+}
+
+.background-texture img {
+    width:50%;
+    margin-left:-200px;
+    margin-top:240px;
 }
 
 .quote {
@@ -141,11 +150,6 @@ li:hover {
     transform:rotate(-3.5deg);
 }
 
-.background-texture img {
-    width:50%;
-    margin-left:-200px;
-    margin-top:240px;
-}
 
 .birth-of-punk {
     background-image:url(images/punk-trio.jpg);
@@ -194,10 +198,131 @@ li:hover {
     margin-top:80px;
 }
 
+.left-image {
+    margin-left:90px;
+}
+
 .foundations-of-punk .quote {
     position:absolute;
     right:230px;
     bottom:0;
     padding:6px 32px;
     transform:rotate(-3.5deg);
+}
+
+.why-punk-popular {
+    position:relative;
+}
+
+.left-image img {
+    width:60%;
+    margin-left:110px;
+    margin-top:30px;
+}
+
+.overlapping-image img {
+    position:absolute;
+    width:40%;
+    left:100px;
+    margin-top:40px;
+}
+
+.yellow-pin {
+    position:absolute;
+    bottom:100px;
+    left:10px;
+}
+
+.antifa-pin {
+    position:absolute;
+    bottom:-130px;
+    left:30px;
+}
+
+.antifa-pin img {
+    width:90%;
+}
+
+.why-punk-popular .background-texture img {
+    margin-left:-400px;
+    margin-top:80px;
+}
+
+.why-punk-popular h1 {
+    margin-top:0px;
+}
+
+.fast-facts {
+    height:900px;
+    background-image:url(images/slate-bg.jpg);
+    margin-top:80px;
+    display:flex;
+    justify-content:center;
+}
+
+.flip-card {
+    height:500px;
+    width:330px;
+    background-color:#34556F;
+    margin:55px;
+    margin-top:210px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+    transition-property:transform:scale;
+    transition-duration:.4s;
+    filter:drop-shadow(8px 8px 12px rgba(0,0,0,.3));
+}
+
+.flip-card-img img {
+    width:100%;
+}
+
+.flip-card h2 {
+    margin-top:35px;
+}
+
+.text {
+    position:absolute;
+    top:2%;
+    text-align:center;
+    width:100%;
+    height:40px;
+    transition:translate(-50%, -50%);
+}
+
+.overlay {
+    position:absolute;
+    transition: all .3s ease;
+    opacity:0;
+    background: rgba(25,43,57,.85);
+}
+
+.flip-card:hover .overlay {
+    opacity:1;
+}
+
+.overlay-top {
+    height:0;
+    width:100%;
+    top:0;
+    right:0;
+}
+
+.flip-card:hover {
+    transform:scale(105%);
+}
+
+.flip-card:hover .overlay-top {
+    height:100%;
+}
+
+.flip-card p {
+    color:#F4FDD5;
+    margin:30px;
+    text-align:left;
+}
+
+.card-text li {
+    line-height:1.6;
 }
