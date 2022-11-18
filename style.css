@@ -5,6 +5,7 @@ body {
     font-family: 'Rubik', sans-serif;
     color: #B2C0C7; 
     width:1440px;
+    overflow-x: hidden; 
 }
 
 h1 {
@@ -149,7 +150,6 @@ nav li:hover {
     left:180px;
     transform:rotate(-3.5deg);
 }
-
 
 .birth-of-punk {
     background-image:url(images/punk-trio.jpg);
@@ -410,6 +410,10 @@ nav li:hover {
     scale:22%;
 }
 
+.street {
+    position:relative;
+}
+
 .street .background-texture img {
     margin:0;
     width:45%;
@@ -432,50 +436,165 @@ nav li:hover {
     margin-left:50px;
 }
 
-.carousel-intro-text h1 {
-    text-align:center;
-    margin-top:120px;
+.cta-button {
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: solid 2px #F4E2EF;
+    background: none;
+    color: #F4E2EF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 34px;
+    margin-right:20px;
+    cursor:pointer;
+    transition: all .2s ease-in-out;
 }
 
-.slider {
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
-    margin-top:30px;
+.cta-button:hover {
+    border: solid 2px #192B39;
+    background: #93BFE1;
+    color: #192B39;
+    transform: scale(1.15);
 }
-  
+
+.carousel-intro-text h1 {
+    text-align:center;
+    margin-top:125px;
+    margin-bottom:20px;
+}
+
+
+
 .carousel-cell {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    width: 1440px;
+    height: 800px;
     position:relative;
 }
-  
-.inner {
-    position: relative;
-    top: 70%;
-    background: black;
+
+.carousel-cell img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+
+.flickity-button {
+    background: rgba(25, 43, 57, .4);
+    border: solid 2px #F4E2EF;
+    transition: all .2s ease-in-out;
+}
+
+.flickity-button:hover {
+    background: rgba(25, 43, 57, 1);
+    width: 70px;
     height: 70px;
-    width: 400px;
+}
+
+.flickity-button-icon {
+    fill: #F4E2EF;
+}
+
+.flickity-prev-next-button {
+    border-radius: 0px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.flickity-prev-next-button.previous {
+    left: 50px;
+}
+
+.flickity-prev-next-button.next {
+    right: 50px;
+}
+
+.flickity-page-dots .dot {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.flickity-page-dots .dot.is-selected {
+    background: white;
+}
+
+.flickity-page-dots {
+    bottom: 12px;
+}
+  
+
+
+.inner {
+    top: 70%;
+    background: rgba(25, 43, 57, .8);
+    height: 115px;
+    width: 680px;
     position:absolute;
 }
   
 .inner p {
     padding: 18px;
-}
-  
-.flickity-prev-next-button {
-    width: 80px;
-    height: 80px;
-    background: transparent;
-}
-   
-.arrow {
-    fill: white;
+    color:#F4FDD5;
+    margin-left:50px;
 }
 
 .footer {
-    height:300px;
+    background-image: linear-gradient(to right, #F4FDD5 , #D5F659 , #D5F659 , #D5F659, #D5F659);
+}
+
+.footer p {
+    color:#192B39;
+}
+
+.footer-card {
+    display:grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    gap:1.8rem;
+    margin-bottom: 2rem;
+    margin-left:90px;
+    margin-right:130px;
+    padding-top:40px;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav ul li {
+    list-style: none;
+    margin-top: -5px;
+    transition: all .2s ease-in-out;
+}
+  
+.footer-nav li a {
+    text-decoration: none;
+    padding: 27px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height:2;
+    color: #192B39;;
+}
+  
+.footer-nav li a:hover {
+    color: #850956;
+}
+
+.footer-nav li:hover {
+    transform: scale(1.1);
+}
+
+.footer-branding img {
+    width:35%;
+    margin-bottom:-20px;
+    margin-top:15px;
+}
+
+.bottom-information {
+    padding-bottom:30px;
+    text-align:center;
 }
