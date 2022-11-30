@@ -336,9 +336,9 @@ nav li:hover {
 }
 
 .anarchy .left-image img {
-    width:105%;
+    width:103%;
     margin-left:-90px;
-    margin-top:-15px;
+    margin-top:-3px;
 }
 
 .anarchy .background-texture img {
@@ -365,7 +365,7 @@ nav li:hover {
     width:32%;
     position:absolute;
     right:120px;
-    bottom:23px;
+    bottom:5px;
 }
 
 .glam-pin {
@@ -379,9 +379,10 @@ nav li:hover {
 }
 
 .garage .left-image {
-    margin-left:0px;
-    margin-top:-60px;
-    margin-bottom:-100px;
+    margin-left:-35px;
+    margin-top:-30px;
+    margin-bottom:-57px;
+    width:110%;
 }
 
 .garage .left-image img {
@@ -542,6 +543,13 @@ nav li:hover {
     margin-left:50px;
 }
 
+.inner img {
+    width:5%;
+    margin-bottom:-15px;
+    margin-right:-10px;
+    margin-left:-2px;
+}
+
 .footer {
     background-image: linear-gradient(to right, #F4FDD5 , #D5F659 , #D5F659 , #D5F659, #D5F659);
 }
@@ -557,7 +565,7 @@ nav li:hover {
     margin-bottom: 2rem;
     margin-left:90px;
     margin-right:130px;
-    padding-top:40px;
+    padding-top:30px;
 }
 
 .footer-nav ul {
@@ -597,4 +605,19 @@ nav li:hover {
 .bottom-information {
     padding-bottom:30px;
     text-align:center;
+}
+
+.bottom-information img {
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.bottom-information img:hover {
+    transform: scale(1.2);
+    cursor:pointer;
+    transition: all .2s ease-in-out;
+}
+
+a {
+    text-decoration:none;
 }
