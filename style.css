@@ -141,14 +141,14 @@ nav li:hover {
     position:absolute;
     z-index:5;
     background-color:#C61E87;
+    transform:rotate(-3.5deg);
     padding:8px 28px;
+    bottom:0px;
     filter: drop-shadow(8px 8px 10px rgba(0,0,0,.4));
 }
 
 .what-the-punk .card .quote {
-    bottom:0px;
     left:180px;
-    transform:rotate(-3.5deg);
 }
 
 .birth-of-punk {
@@ -203,11 +203,8 @@ nav li:hover {
 }
 
 .foundations-of-punk .quote {
-    position:absolute;
     right:230px;
-    bottom:0;
     padding:6px 32px;
-    transform:rotate(-3.5deg);
 }
 
 .why-punk-popular {
@@ -324,7 +321,14 @@ nav li:hover {
 }
 
 .card-text li {
-    line-height:1.6;
+    line-height:1.5;
+}
+
+.card-text ul {
+    list-style-position: inside;
+    padding-left: 12px;
+    list-style-image: url('images/x-bullet.png');
+    margin-top:-10px;
 }
 
 .anarchy {
@@ -429,11 +433,11 @@ nav li:hover {
 }
 
 .links-and-resources p {
-    margin-top:110px;
+    margin-top:70px;
 }
 
 .links-and-resources h1 {
-    margin-top:60px;
+    margin-top:20px;
     margin-left:50px;
 }
 
@@ -445,8 +449,8 @@ nav li:hover {
     color: #F4E2EF;
     font-size: 16px;
     font-weight: 700;
-    margin-top: 34px;
-    margin-right:20px;
+    margin-top: 37px;
+    margin-right:21px;
     cursor:pointer;
     transition: all .2s ease-in-out;
 }
@@ -460,11 +464,9 @@ nav li:hover {
 
 .carousel-intro-text h1 {
     text-align:center;
-    margin-top:125px;
+    margin-top:105px;
     margin-bottom:20px;
 }
-
-
 
 .carousel-cell {
     width: 1440px;
@@ -477,8 +479,6 @@ nav li:hover {
     height:100%;
     object-fit:cover;
 }
-
-
 
 .flickity-button {
     background: rgba(25, 43, 57, .4);
@@ -501,7 +501,6 @@ nav li:hover {
     width: 60px;
     height: 60px;
 }
-
 
 .flickity-prev-next-button.previous {
     left: 50px;
@@ -526,8 +525,6 @@ nav li:hover {
 .flickity-page-dots {
     bottom: 12px;
 }
-  
-
 
 .inner {
     top: 70%;
@@ -562,38 +559,10 @@ nav li:hover {
     display:grid;
     grid-template-columns: 6fr 1fr 1fr;
     gap:1.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 50px;
     margin-left:90px;
     margin-right:130px;
     padding-top:30px;
-}
-
-.footer-nav ul {
-    display: flex;
-}
-
-.footer-nav ul li {
-    list-style: none;
-    margin-top: -5px;
-    transition: all .2s ease-in-out;
-}
-  
-.footer-nav li a {
-    text-decoration: none;
-    padding: 27px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    line-height:2;
-    color: #192B39;;
-}
-  
-.footer-nav li a:hover {
-    color: #850956;
-}
-
-.footer-nav li:hover {
-    transform: scale(1.1);
 }
 
 .footer-branding img {
