@@ -8,7 +8,7 @@ body {
     background:#192B39;
     font-family: 'Rubik', sans-serif;
     color: #B2C0C7; 
-    width:100%;
+    width:1440px;
 }
 
 h1 {
@@ -83,7 +83,7 @@ nav li:hover {
 }
 
 .hero {
-    height:780px;
+    height:80%;
     text-align: center;
     background-image:url(images/hero-shirt.jpg);
     background-size:cover;
