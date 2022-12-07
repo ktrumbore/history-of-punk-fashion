@@ -51,7 +51,7 @@ p {
 }
   
 .logo img {
-    width:35%;
+    width:169px;
     margin-top:10px;
 }
   
@@ -87,6 +87,7 @@ nav li:hover {
     text-align: center;
     background-image:url(images/hero-shirt.jpg);
     background-size:cover;
+    background-position:center;
 }
 
 .hero-text {
@@ -120,7 +121,7 @@ nav li:hover {
 }
 
 .main-card-image img {
-    width:60%;
+    width:419px;
     margin-left:180px;
     margin-top:50px;
 }
@@ -152,7 +153,7 @@ nav li:hover {
 }
 
 .what-the-punk .card .quote {
-    left:180px;
+    left:12%;
 }
 
 .birth-of-punk {
